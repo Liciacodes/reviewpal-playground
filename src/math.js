@@ -5,3 +5,6 @@ function divide(a, b) {
 function getUserName(user) {
   return user.profile.name;
 }
+
+
+
