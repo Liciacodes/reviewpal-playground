@@ -17,7 +17,8 @@ function orderTotal(order) {
 }
 
 function applyDiscount(total, percent) {
-  return total - total * percent;
-}
+     if (percent > 100) return 0;
+     return total - total * percent;
+   }
 
 module.exports = { formatPrice, countItems, orderTotal, applyDiscount };
