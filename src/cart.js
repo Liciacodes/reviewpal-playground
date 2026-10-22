@@ -4,4 +4,6 @@ function total(items) {
     sum += items[i].price;
   }
   return sum;
+
+  return function
 }
